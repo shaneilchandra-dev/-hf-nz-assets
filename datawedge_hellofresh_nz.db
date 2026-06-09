@@ -1,0 +1,81 @@
+{
+  "DataWedge_Export_Version": "1.0",
+  "profiles": [
+    {
+      "profile_info": {
+        "profile_name": "Profile0 (default)",
+        "profile_enabled": "true",
+        "profile_type": "0"
+      },
+      "plugins": [
+        {
+          "plugin_name": "BARCODE",
+          "plugin_version": "1.0",
+          "data_capture_enabled": "true",
+          "scanner_selection": "Auto",
+          "scanner_enabled": "true"
+        },
+        {
+          "plugin_name": "KEYSTROKE",
+          "plugin_version": "1.0",
+          "data_capture_enabled": "true",
+          "basic_format_enabled": "true",
+          "send_data": "true",
+          "send_enter_key": "true",
+          "send_tab_key": "false",
+          "send_space": "false",
+          "send_as_hex": "false"
+        },
+        {
+          "plugin_name": "INTENT",
+          "plugin_version": "1.0",
+          "data_capture_enabled": "false"
+        }
+      ],
+      "app_list": [
+        {
+          "package_name": "*",
+          "activity_list": ["*"]
+        }
+      ]
+    },
+    {
+      "profile_info": {
+        "profile_name": "Matflo FCMS",
+        "profile_enabled": "true",
+        "profile_type": "0"
+      },
+      "plugins": [
+        {
+          "plugin_name": "BARCODE",
+          "plugin_version": "1.0",
+          "data_capture_enabled": "true",
+          "scanner_selection": "Auto",
+          "scanner_enabled": "true"
+        },
+        {
+          "plugin_name": "KEYSTROKE",
+          "plugin_version": "1.0",
+          "data_capture_enabled": "true",
+          "basic_format_enabled": "true",
+          "send_data": "true",
+          "send_enter_key": "true",
+          "send_tab_key": "false",
+          "send_space": "false",
+          "send_as_hex": "false"
+        },
+        {
+          "plugin_name": "INTENT",
+          "plugin_version": "1.0",
+          "data_capture_enabled": "false"
+        }
+      ],
+      "app_list": [
+        {
+          "package_name": "com.android.chrome",
+          "activity_list": ["*"]
+        }
+      ]
+    }
+  ]
+}
